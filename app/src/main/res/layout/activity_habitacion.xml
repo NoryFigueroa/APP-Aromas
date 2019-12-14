@@ -5,19 +5,523 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HabitacionActivity">
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIONES"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="215dp"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/habpromouno">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIÓN MATRIMONIAL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content">
+
+                    </Space>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40px"
+                                android:gravity="center"
+                                android:text="S/. 65.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Por noche"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40px"
+                        android:background="@color/colorPrimary"
+                        android:text="RESERVAR"
+                        android:textSize="15sp">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="206dp"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/habipromotres">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIÓN SIMPLE"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content">
+
+                    </Space>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40px"
+                                android:gravity="center"
+                                android:text="S/. 25.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Por noche"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40px"
+                        android:background="@color/colorPrimary"
+                        android:text="RESERVAR"
+                        android:textSize="15sp">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="80px">
+
+                <ImageButton
+                    android:layout_width="206dp"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/habpromodos">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIÓN DOBLE"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content">
+
+                    </Space>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="S/. 50.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp"
+                                android:layout_marginTop="40px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Por noche"
+                                android:textSize="16sp"
+                                >
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:text="RESERVAR"
+                        android:textSize="15sp"
+                        android:layout_marginTop="40px">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SERVICIOS"
+                        android:gravity="center"
+                        android:layout_marginTop="40px">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="14dp"
+                            android:layout_height="wrap_content">
+
+                        </Space>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
 
 
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="Baño Privado con Agua caliente"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
 
 
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
 
 
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="Calefacción"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
 
 
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
 
 
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="Sala de estar"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="Amenidades de Baño"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="WiFi Gratis"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="TV-CLARO"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <ImageButton
+                                    android:layout_width="55dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginTop="40px"
+                                    android:gravity="center"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/ducha">
+
+                                </ImageButton>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="40px"
+                                    android:text="Pago con VISA"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
 
     </ScrollView>

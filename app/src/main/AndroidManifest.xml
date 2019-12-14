@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".InicioActivity" />
+        <activity android:name=".NosotrosActivity" />
         <activity android:name=".ContactenosActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".PromocionActivity" />
         <activity android:name=".HabitacionActivity" />
-        <activity android:name=".NosotrosActivity">
+        <activity android:name=".InicioActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

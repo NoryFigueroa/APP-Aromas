@@ -6,4 +6,300 @@
     android:layout_height="match_parent"
     tools:context=".PromocionActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="PROMOCIONES"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="24dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="215dp"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/habpromouno">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIÓN MATRIMONIAL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content">
+
+                    </Space>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40px"
+                                android:gravity="center"
+                                android:text="S/. 35.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Por noche"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40px"
+                        android:background="@color/colorPrimary"
+                        android:text="RESERVAR"
+                        android:textSize="15sp">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="206dp"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/habipromotres">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIÓN MATRIMONIAL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content">
+
+                    </Space>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="40px"
+                                android:gravity="center"
+                                android:text="S/. 35.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Por noche"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40px"
+                        android:background="@color/colorPrimary"
+                        android:text="RESERVAR"
+                        android:textSize="15sp">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="80px">
+
+                <ImageButton
+                    android:layout_width="206dp"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/habpromodos">
+
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40px"
+                    android:gravity="center"
+                    android:text="HABITACIÓN MATRIMONIAL"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="14dp"
+                        android:layout_height="wrap_content">
+
+                    </Space>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="S/. 35.00"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp"
+                                android:layout_marginTop="40px">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Por noche"
+                                android:textSize="16sp"
+                                >
+
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40px"
+                        android:background="@color/colorPrimary"
+                        android:text="RESERVAR"
+                        android:textSize="15sp">
+
+                    </Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
