@@ -4,6 +4,7 @@ package com.example.aromasapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -67,4 +68,10 @@ public class InicioActivity extends AppCompatActivity implements View.OnClickLis
             datePickerDialog.show();
         }
     }
+    /*@Override
+    public void onClick(View v) {
+
+            Intent o = new Intent(InicioActivity.this, RPasoUnoActivity.class);
+            startActivity(o);
+    }*/
 }
