@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactenosActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="41dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="CONTÁCTENOS"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="Envíanos un mensaje"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="¿Tienes algo en mente que decirnos? No dude en ponerse en contacto con nosotros a través de nuestro formulario de contacto."
+                android:textColor="@color/colorPrimaryDark">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:text="Nombres y Apellidos:"
+                android:textSize="14sp">
+
+            </EditText>
+
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="286dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+
+            </android.inputmethodservice.ExtractEditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Correo Electrónico:"
+                android:textSize="14sp">
+
+            </EditText>
+
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="286dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+
+            </android.inputmethodservice.ExtractEditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="Asunto:"
+                android:textSize="14sp">
+
+            </EditText>
+
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="286dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+
+            </android.inputmethodservice.ExtractEditText>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="Mensaje:"
+                android:textSize="14sp">
+
+            </EditText>
+
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="286dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp">
+
+            </android.inputmethodservice.ExtractEditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="Enviar">
+
+            </Button>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:gravity="center"
+                android:text="Estar en Contacto"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:text="Direeción: Avenida Mariscal Cáceres N° 4018 - El Tambo, Huancayo."
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Telefono: 965-256-458
+                          WhatsApp: 968-458-123
+                          Email: eulaliogarciaq@hotmail.com"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Ubícanos"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/mapa">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
