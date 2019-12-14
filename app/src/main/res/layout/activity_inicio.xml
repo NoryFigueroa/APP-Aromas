@@ -6,4 +6,181 @@
     android:layout_height="match_parent"
     tools:context=".InicioActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="-28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fondoinicio"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80sp"
+                    android:fontFamily="serif"
+                    android:text="@string/slogan"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="italic"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Blackt"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bfechallegada"
+                            android:layout_width="136dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/White"
+                            android:text="Fecha llegadea">
+
+                        </Button>
+
+                        <EditText
+                            android:id="@+id/txtFllegada"
+                            android:layout_width="224dp"
+                            android:layout_height="wrap_content">
+
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="10sp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/bfechallesalida"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/White"
+                            android:text="Fecha Salida">
+
+                        </Button>
+
+                        <EditText
+                            android:id="@+id/txtFsalida"
+                            android:layout_width="224dp"
+                            android:layout_height="wrap_content">
+
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Seleccione Tipo"></EditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/maincolor"
+                            android:text="Buscar"
+                            android:textAlignment="center"
+                            android:textColor="#F3FFFFFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold"></Button>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/White">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/TNhabitaciones"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:layout_width="394dp"
+                        android:layout_height="319dp"
+                        tools:srcCompat="@drawable/roomone"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/THsimple"
+                        android:textAlignment="center"
+                        android:textColor="@color/maincolor">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="394dp"
+                        android:layout_height="308dp"
+                        tools:srcCompat="@drawable/roomtwo"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/THdoble"
+                        android:textAlignment="center"
+                        android:textColor="@color/maincolor">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="394dp"
+                        android:layout_height="280dp"
+                        tools:srcCompat="@drawable/roomtre"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/THmatrim"
+                        android:textAlignment="center"
+                        android:textColor="@color/maincolor">
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

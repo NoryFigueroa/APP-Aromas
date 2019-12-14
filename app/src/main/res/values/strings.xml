@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AromasAPP</string>
+    <string name="slogan">Aroma´s Hostal “pensando en el paraiso de tus sueños”.</string>
+    <string name="TNhabitaciones">Nuetras Habitaciones</string>
+    <string name="THsimple">Habitación Simple</string>
+    <string name="THdoble">Habitación Doble</string>
+    <string name="THmatrim">Habitación Matrimonial</string>
 </resources>
